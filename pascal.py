@@ -32,7 +32,6 @@ class Solution:
         # return type: list[list[int]]
         triangle = [[]]
         for p in range(1, rows):
-            print(triangle)
             for i in range(0, p):
                 print(p)
                 print(i)
