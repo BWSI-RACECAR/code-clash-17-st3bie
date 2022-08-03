@@ -31,7 +31,7 @@ class Solution:
         # type row: int
         # return type: list[list[int]]
         triangle = [[]]
-        for p in range(1, rows):
+        for p in range(1, rows+1):
             for i in range(0, p):
                 print(p)
                 print(i)
